@@ -1,0 +1,5 @@
+@client.event
+async def on_ready():
+    print("Bot is Online")
+    print("Name: {}".forma(client.user.name))
+    print("ID: {}".format (client.user.id))
